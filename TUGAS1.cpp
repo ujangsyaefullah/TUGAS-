@@ -28,19 +28,19 @@ int main()
 	cout<<endl<<"======================================"<<endl<<endl;
 		
     if(i!=1){ //cek jumlah i
-		cout<<"-----------OUTPUT HASIL DATA----------"<<endl<<endl;
-		cout<<"--------------------------------------"<<endl;
-		cout<<"Jumlah Mahasiswa : "<<i-1<<endl;
-		cout<<"--------------------------------------"<<endl;
-		cout<<"Jumlah Mahasiswa Yang Lulus : "<<lulus<<endl;
-		cout<<"--------------------------------------"<<endl;
+		cout<<"-----------OUTPUT HASIL DATA------------"<<endl<<endl;
+		cout<<"----------------------------------------"<<endl;
+		cout<<"Jumlah Mahasiswa                  : "<<i-1<<endl;
+		cout<<"----------------------------------------"<<endl;
+		cout<<"Jumlah Mahasiswa Yang Lulus       : "<<lulus<<endl;
+		cout<<"----------------------------------------"<<endl;
 		cout<<"Jumlah Mahasiswa Yang Tidak Lulus : "<<i-1-lulus<<endl;
-		cout<<"--------------------------------------"<<endl;
-		cout<<"Jumlah Nilai Mahasiswa : "<<jumlah<<endl;
-		cout<<"--------------------------------------"<<endl;
-		cout<<"Nilai Rata-Rata Mahasiswa : "<<jumlah/(i-1)<<endl;
-		cout<<"--------------------------------------"<<endl<<endl;
-		cout<<"------------Alhamdulillah-------------"<<endl;
+		cout<<"----------------------------------------"<<endl;
+		cout<<"Jumlah Nilai Mahasiswa            : "<<jumlah<<endl;
+		cout<<"----------------------------------------"<<endl;
+		cout<<"Nilai Rata-Rata Mahasiswa         : "<<jumlah/(i-1)<<endl;
+		cout<<"----------------------------------------"<<endl<<endl;
+		cout<<"-------------Alhamdulillah--------------"<<endl;
 	}
 	else {
 		cout<<"Tidak Ada Data";
